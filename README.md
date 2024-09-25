@@ -1,7 +1,8 @@
 # Introduction
 
 Algorithmic trading involves using automated systems to execute trades based on predefined strategies, offering speed and efficiency in the dynamic cryptocurrency market. This report focuses on developing, backtesting, and evaluating algorithmic trading strategies for the BTC/USDT pair across various time intervals: 1 minute, 1 hour, 4 hours, and 1 day.
-#Data Collection
+
+# Data Collection
  
 - Live Data:
  - We used the Binance API to fetch the current price of BTC/USDT. This live data fetch is done using a function that sends a request to the Binance API and retrieves the latest price.
@@ -10,7 +11,7 @@ Algorithmic trading involves using automated systems to execute trades based on 
      - Data was fetched for various intervals: 1 minute, 1 hour, 4 hours, and 1 day, with up to 1000 data points per request.
      - The data includes timestamps, open, high, low, close prices, and volume.
 
-#Implement Trading Strategies 
+# Implement Trading Strategies 
 
 SMA50: 
 - The 50-day SMA is an intermediate-term moving average that offers a broader perspective on price trends
